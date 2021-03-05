@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     margin-bottom:24px;
 
   .avatar{
@@ -29,19 +29,14 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 150%;
-
-    /* or 21px */
+    line-height: 150%; /* or 21px */
     display: flex;
     align-items: center;
     letter-spacing: -0.015em;
-
-    /* Pigeon/Pigeon5 (#666666) */
     color: #666666;
   }
 
   .wrapper{
-    //flex: none;
     order: 1;
     align-self: flex-start;
     flex-grow: 0;
