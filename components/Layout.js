@@ -12,7 +12,7 @@ export default function Layout(props) {
 			<Head>
 				<title>{title}</title>
 				<link rel="canonical" href={'/'} />
-				
+
 				<meta charSet="UTF-8" />
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 				<meta name="title" content={title} />
