@@ -1,0 +1,50 @@
+.personCard{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin-bottom:24px;
+
+  .avatar{
+    width:96px;
+    height:96px;
+    background: #C4C4C4;
+    border-radius: 2px;
+  }
+
+  .name{
+    font-family: Helvetica, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    //line-height: 150%;    /* identical to box height, or 24px */
+    line-height: 24px;
+    letter-spacing: -0.025em;
+    font-feature-settings: 'case' on;
+    color: #333333;
+  }
+
+  .description{
+    font-family: Helvetica, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+
+    /* or 21px */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+
+    /* Pigeon/Pigeon5 (#666666) */
+    color: #666666;
+  }
+
+  .wrapper{
+    //flex: none;
+    order: 1;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin: 0px 24px;
+  }
+}
