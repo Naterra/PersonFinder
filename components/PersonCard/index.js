@@ -5,7 +5,7 @@ export default function PersonCard({ data }) {
 	return (
 		<div className={styles.personCard}>
 			<div className={styles.avatar}>
-				<Image width={96} height={96} alt={data.name} layout="fixed" src={data.avatar} />
+				<Image width={96} height={96} alt={data.name} src={data.avatar} />
 			</div>
 
 			<div className={styles.wrapper}>
