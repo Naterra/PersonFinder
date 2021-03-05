@@ -1,24 +1,33 @@
-
-h1{
-  font-family: Georgia, serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  //line-height: 110%;
-  line-height: 44px; /* or 44px */
-  font-feature-settings: 'case' on;
-  color: #102261;
+body {
+	margin: 0;
 }
 
-.container{
-  width: 575px;
-  margin: 0 auto;
+h1 {
+	font-family: Georgia, serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	//line-height: 110%; /* or 44px */
+	line-height: 44px;
+	font-feature-settings: 'case' on;
+	color: #102261;
 }
 
-*, *:before, *:after {
-  /* -webkit-box-sizing: inherit; */
-    box-sizing: inherit;
-  //rit */: ;
+.container {
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
-input{border: none; background: no-repeat;}
+.content-container {
+	max-width: 560px;
+}
+
+*,
+*:before,
+*:after {box-sizing: inherit;}
+
+input {
+	border: none;
+	background: no-repeat;
+}
