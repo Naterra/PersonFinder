@@ -6,10 +6,16 @@
     margin-bottom:24px;
 
   .avatar{
-    width:96px;
-    height:96px;
+    width: 95.83px;
+    height: 96px;
+    left: 0px;
+    top: 0px;
     background: #C4C4C4;
     border-radius: 2px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px 0 0;
   }
 
   .name{
@@ -17,8 +23,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    //line-height: 150%;    /* identical to box height, or 24px */
-    line-height: 24px;
+    line-height: 24px; //150% or 24px
     letter-spacing: -0.025em;
     font-feature-settings: 'case' on;
     color: #333333;
@@ -29,17 +34,25 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 150%; /* or 21px */
+    line-height:21px ; /* 21px or 150% */
     display: flex;
-    align-items: center;
     letter-spacing: -0.015em;
     color: #666666;
+    padding: 0.5rem 0;
   }
 
   .wrapper{
     order: 1;
     align-self: flex-start;
     flex-grow: 0;
-    margin: 0px 24px;
+  }
+
+  @media only screen and (max-width: 500px){
+    .avatar {
+      //width: 75px;
+      //height: 75px;
+      margin-right: 1rem;
+    }
   }
 }
+

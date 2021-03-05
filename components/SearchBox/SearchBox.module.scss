@@ -1,15 +1,16 @@
 $inputColor:#393939;
 
+
 .searchBox{
-  margin: 2rem 0;
+  padding: 1.3rem 0;
+  display: flex;
 
   .inputWrapper{
-    //background: #EFEFEF; opacity: 0.7;
     background: #efefefc7;//with opacity 0.7
     border-radius: 4px;
     border: none;
     width:100%;
-    padding:10px 0 10px 15px;
+    padding: 0.5rem 0 0.5rem 0.6rem;
     display: flex;
     align-items: center;
   }

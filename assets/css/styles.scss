@@ -1,26 +1,25 @@
-body {
-	margin: 0;
-}
+body { margin: 0; }
 
 h1 {
 	font-family: Georgia, serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 40px;
-	//line-height: 110%; /* or 44px */
-	line-height: 44px;
+	line-height: 44px; // 110%; or 44px
 	font-feature-settings: 'case' on;
 	color: #102261;
+	margin-block-start: 0;
+	margin-block-end: 1.8rem;
 }
 
 .container {
 	width: 90%;
-	max-width: 1000px;
+	max-width: 1165px;
 	margin: 0 auto;
 }
 
 .content-container {
-	max-width: 560px;
+	max-width: 561px;
 }
 
 *,
@@ -30,4 +29,8 @@ h1 {
 input {
 	border: none;
 	background: no-repeat;
+}
+
+@media only screen and (max-width: 500px){
+	.container { width: 95%;}
 }
